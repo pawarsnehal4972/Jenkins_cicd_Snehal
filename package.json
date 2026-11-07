@@ -1,0 +1,16 @@
+{
+  "name": "express-frontend",
+  "version": "1.0.0",
+  "description": "Express frontend for the Jenkins CI/CD assignment",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test test/"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.21.0"
+  }
+}

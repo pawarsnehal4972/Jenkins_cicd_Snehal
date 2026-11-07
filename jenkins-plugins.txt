@@ -1,0 +1,13 @@
+# Plugins used by the two pipelines (Manage Jenkins > Plugins).
+# Most are installed by "Install suggested plugins" in the setup wizard.
+git                     # Git plugin - checkout from GitHub
+github                  # GitHub plugin - webhook trigger (githubPush)
+workflow-aggregator     # Pipeline (declarative pipelines, Jenkinsfile)
+nodejs                  # NodeJS plugin - optional managed Node.js installations
+credentials-binding     # withCredentials (secrets as environment variables)
+junit                   # publishes pytest results
+timestamper             # timestamps in console log
+ws-cleanup              # cleanWs() in post block
+pipeline-stage-view     # Stage view of builds (nice for screenshots)
+# Python: the Python/ShiningPanda plugins are no longer maintained, so the pipelines use the
+# system Python 3 + virtualenv installed on the EC2 instance instead.

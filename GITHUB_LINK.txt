@@ -1,0 +1,4 @@
+GitHub repository links (replace with your own after pushing):
+
+Flask backend:    https://github.com/<your-username>/flask-backend
+Express frontend: https://github.com/<your-username>/express-frontend
